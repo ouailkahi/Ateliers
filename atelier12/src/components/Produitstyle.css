@@ -1,0 +1,49 @@
+/* Style du conteneur principal */
+.produit-container {
+    border: 1px solid #ccc; /* Bordure autour du produit */
+    padding: 10px; /* Espace interne du produit */
+    text-align: center; /* Centre le contenu du produit */
+    margin-bottom: 20px; /* Espacement entre les produits en bas */
+    max-width: 300px; /* Largeur maximale du produit */
+  }
+  
+  /* Style de l'image */
+  .produit-container img {
+    max-width: 100%; /* L'image s'ajuste à la largeur du conteneur */
+    height: auto; /* L'image s'ajuste à la hauteur en proportion */
+  }
+  
+  /* Style du titre */
+  .produit-container h1 {
+    font-size: 20px; /* Taille de la police du titre */
+    margin: 10px 0; /* Espacement autour du titre */
+  }
+  
+  /* Style de la description */
+  .produit-container p {
+    font-size: 16px; /* Taille de la police de la description */
+    margin: 10px 0; /* Espacement autour de la description */
+  }
+  
+  /* Style du prix */
+  .produit-container h3 {
+    font-size: 18px; /* Taille de la police du prix */
+    margin: 10px 0; /* Espacement autour du prix */
+    color: #ff5733; /* Couleur du prix (par exemple, rouge) */
+  }
+  
+  /* Style du bouton "Ajouter au panier" */
+  .produit-container button {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Pas de bordure */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    font-size: 16px; /* Taille de la police du bouton */
+    cursor: pointer; /* Curseur de type main (pointer) au survol */
+  }
+  
+  /* Style du bouton au survol */
+  .produit-container button:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+  }
+  

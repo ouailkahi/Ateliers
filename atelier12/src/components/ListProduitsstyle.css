@@ -1,0 +1,40 @@
+/* Style du conteneur principal */
+.list-produits {
+    max-width: 600px; /* Largeur maximale du conteneur */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    padding: 20px; /* Espace autour du contenu */
+  }
+  
+  /* Style du sélecteur de catégorie */
+  .select-categorie {
+    margin-bottom: 20px; /* Espacement entre le sélecteur et la liste de produits */
+  }
+  
+  /* Style des options dans le sélecteur */
+  .select-categorie option {
+    font-size: 16px; /* Taille de la police */
+  }
+  
+  /* Style de la liste de produits */
+  .list-produits .produits {
+    display: flex; /* Affiche les produits dans une ligne */
+    flex-wrap: wrap; /* Permet aux produits de passer à la ligne si l'espace est insuffisant */
+    justify-content: space-between; /* Espacement égal entre les produits */
+  }
+  
+  /* Style des produits individuels */
+  .list-produits .produit {
+    width: calc(33.33% - 10px); /* Largeur des produits avec un peu d'espacement entre eux */
+    margin-bottom: 20px; /* Espacement entre les produits en bas */
+    border: 1px solid #ccc; /* Bordure autour des produits */
+    padding: 10px; /* Espace interne des produits */
+    text-align: center; /* Centre le contenu du produit */
+  }
+  
+  /* Style du texte "Pas de produits" */
+  .list-produits .no-produits {
+    text-align: center; /* Centre le texte */
+    font-size: 18px; /* Taille de la police */
+    color: #999; /* Couleur du texte grisé */
+  }
+  
